@@ -6,13 +6,13 @@
 from os import path, getenv
 
 class Config:
-    API_ID = int(getenv("API_ID", "20389440"))
-    API_HASH = getenv("API_HASH", "a1a06a18eb9153e9dbd447cfd5da2457")
-    BOT_TOKEN = getenv("BOT_TOKEN", "6564513574:AAGDqUaEmeu0m4DjLDetNc4nooVTWYT7Fzo")
-    FSUB = getenv("FSUB", "VJ_Botz")
-    CHID = int(getenv("CHID", "-1001623633000"))
-    SUDO = list(map(int, getenv("SUDO", "6168162777").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
+    API_ID = int(getenv("API_ID", "18051748"))
+    API_HASH = getenv("API_HASH", "941f76b6cb94ad88d27abe96a25c3ba6")
+    BOT_TOKEN = getenv("BOT_TOKEN", "6323337513:AAHOmEGnYfBAadhq1h1eVH8CrTRI9Tfrl2g")
+    FSUB = getenv("FSUB", "WMchannelS")
+    CHID = int(getenv("CHID", "-1001953506128"))
+    SUDO = list(map(int, getenv("SUDO", "1918917066").split()))
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://SERIAL:SERIAL@cluster0.m6omsjh.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
 
